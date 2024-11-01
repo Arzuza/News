@@ -102,8 +102,9 @@ class ProfilePage extends StatelessWidget {
                   const SizedBox(height: 25),
                   Row(
                     children: [
+                      const Icon(Icons.circle),
                       Text(
-                        'NIM :',
+                        ' NIM :',
                         style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                               color: Colors.black87,
                               fontSize: 18,
@@ -123,8 +124,9 @@ class ProfilePage extends StatelessWidget {
                   const SizedBox(height: 15),
                   Row(
                     children: [
+                      const Icon(Icons.phone_android),
                       Text(
-                        'Phone :',
+                        ' Phone :',
                         style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                               color: Colors.black87,
                               fontSize: 18,
@@ -144,8 +146,9 @@ class ProfilePage extends StatelessWidget {
                   const SizedBox(height: 15),
                   Row(
                     children: [
+                      const Icon(Icons.email),
                       Text(
-                        'Email :',
+                        ' Email :',
                         style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                               color: Colors.black87,
                               fontSize: 18,
@@ -165,8 +168,9 @@ class ProfilePage extends StatelessWidget {
                   const SizedBox(height: 15),
                   Row(
                     children: [
+                      const Icon(Icons.house),
                       Text(
-                        'Address :',
+                        ' Address :',
                         style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                               color: Colors.black87,
                               fontSize: 18,

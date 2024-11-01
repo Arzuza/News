@@ -71,6 +71,10 @@ class BuildEkonomiNews extends StatelessWidget {
                               maxLines: 2,
                             ),
                             const SizedBox(width: 8),
+                          ],
+                        ),
+                        Row(
+                          children: [
                             const CircleAvatar(
                               radius: 3,
                               backgroundColor: Color(0XFF969696),
@@ -84,7 +88,7 @@ class BuildEkonomiNews extends StatelessWidget {
                               ),
                             ),
                           ],
-                        ),
+                        )
                       ],
                     ),
                   ),

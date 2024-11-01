@@ -70,7 +70,11 @@ class BuildNasionalNews extends StatelessWidget {
                               maxLines: 2,
                             ),
                             const SizedBox(width: 8),
-                            const CircleAvatar(
+                            
+                          ],
+                        ),
+                        Row(children: [
+                          const CircleAvatar(
                               radius: 3,
                               backgroundColor: Color(0XFF969696),
                             ),
@@ -82,8 +86,7 @@ class BuildNasionalNews extends StatelessWidget {
                                 fontSize: 12,
                               ),
                             ),
-                          ],
-                        ),
+                        ],)
                       ],
                     ),
                   ),
